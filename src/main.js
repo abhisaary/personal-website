@@ -79,11 +79,11 @@ function activateVideo(mediaRoot) {
 
 document.querySelectorAll('.project-media').forEach(activateVideo)
 
-function initDietSlideshow(root) {
-  const slides = [...root.querySelectorAll('.diet-slideshow-viewport > img, .diet-history-pan')]
-  const dots = [...root.querySelectorAll('.diet-slideshow-dots button')]
-  const prevBtn = root.querySelector('[data-diet-prev]')
-  const nextBtn = root.querySelector('[data-diet-next]')
+function initPhoneSlideshow(root) {
+  const slides = [...root.querySelectorAll('.phone-slideshow-viewport > img, .diet-history-pan')]
+  const dots = [...root.querySelectorAll('.phone-slideshow-dots button')]
+  const prevBtn = root.querySelector('[data-phone-prev]')
+  const nextBtn = root.querySelector('[data-phone-next]')
   if (!slides.length) return
 
   const STILL_MS = 4000
@@ -150,7 +150,7 @@ function initDietSlideshow(root) {
   show(index)
 }
 
-document.querySelectorAll('[data-diet-slideshow]').forEach(initDietSlideshow)
+document.querySelectorAll('[data-phone-slideshow]').forEach(initPhoneSlideshow)
 
 const revealItems = document.querySelectorAll('.project')
 if (!prefersReducedMotion && 'IntersectionObserver' in window) {

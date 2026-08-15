@@ -24,6 +24,14 @@ npm run build
 npm run preview
 ```
 
+## Export resume PDF
+
+Generates a print-friendly PDF (media hidden, denser spacing) at `public/Abhisaar-Yadav.pdf`:
+
+```bash
+npm run export:pdf
+```
+
 ## Deploy on Vercel
 
 1. Push this repository to GitHub.
