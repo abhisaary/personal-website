@@ -49,7 +49,7 @@ Drop short muted looping clips into `public/media/`:
 
 | Project | Files |
 | --- | --- |
-| Vball Studio | screenshot: `vball-studio.png` (optional upload shot: `vball-upload.png`); optional clip: `vball-studio.webm` / `.mp4` |
+| Vball Studio | screenshot: `vball-studio-share.png` (optional upload shot: `vball-upload.png`); optional clip: `vball-studio.webm` / `.mp4` |
 | Studdy | `studdy-before.png`, concatenated pan strip `studdy-after-strip.png` |
 | Diet Tracker | slideshow stills + history pan strip `diet-history-strip.png`; optional clip: `diet-tracker.webm` / `.mp4` |
 
